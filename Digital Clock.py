@@ -12,9 +12,10 @@ def time():
     label.after(1000,time) #Update every 1 second
 
 #Styling the clock
-label = tk.Label(root,font=('Algerian',50,'bold'),background='blue',foreground='black')
+label = tk.Label(root,font=('Algerian',50,'bold'),background='yellow',foreground='black')
 label.pack(anchor='center')
 
 time() #Run the clock
+
 
 root.mainloop()
